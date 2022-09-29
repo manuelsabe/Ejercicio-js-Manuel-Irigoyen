@@ -7,7 +7,7 @@ const pizzas = [
     },
     {
       id: 2,
-      nombre: "cordobesa",
+      nombre: "Cordobesa",
       ingredientes: ["Papas fritas", " queso", " jamon", " huevo"],
       precio: 700,
     },
