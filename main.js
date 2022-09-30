@@ -229,4 +229,4 @@ const pizzas = [
     }
   });
 
-  (require.context('./fragments', false, /.html$/));
+  
