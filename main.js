@@ -197,7 +197,7 @@ const pizzas = [
     const imageName = pizza.nombre;
     return `
               <div class="pizza-image-container" id="pizza-image">
-                  <img src="/imgs/${imageName}.png" alt="imagen de pizza" class="pizza-image">
+                  <img src="./imgs/${imageName}.png" alt="imagen de pizza" class="pizza-image">
               </div>
               
               `;
@@ -228,3 +228,5 @@ const pizzas = [
       renderPizzaImage(lastPizza);
     }
   });
+
+  (require.context('./fragments', false, /.html$/));
